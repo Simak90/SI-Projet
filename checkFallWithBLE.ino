@@ -108,7 +108,7 @@ void loop() {
 //                                                                                                                                                                                                      //
     if (Accel > g and Fall == false and resetTime > 3.0) {                                                                                                                                              //
       Debut = micros();                                         // Temps avec micros() car plus précis que millis()                                                                                     //
-      Serial.print("\n\n\nEn descente\n");                                                                                                                                                                  //
+      Serial.print("\n\n\nEn descente\n");                                                                                                                                                              //
       Fall = true;                                                                                                                                                                                      //
     }                                                                                                                                                                                                   //
 //******************************************************************************************************************************************************************************************************//
