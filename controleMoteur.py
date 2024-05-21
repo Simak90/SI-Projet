@@ -70,7 +70,7 @@ try:
             elif i%4==3:
                 stepFour()
 
-            time.sleep( step_sleep )
+            time.sleep(step_sleep)
 
         i = 0
         for i in range(step_count):
@@ -83,7 +83,7 @@ try:
             elif i%4==2:
                 stepOne()
 
-            time.sleep( step_sleep )
+            time.sleep(step_sleep)
 
 except KeyboardInterrupt:
     cleanup()
